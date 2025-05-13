@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  background-image: url(./images/bg1.jpg);  
+  height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nav-links{
+   display: flex; 
+   flex-direction: row;
+   gap: 20px;
+}
+
+a{
+    text-decoration: none;
+}
