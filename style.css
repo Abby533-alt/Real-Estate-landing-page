@@ -3,14 +3,17 @@
     padding: 0;
 }
 header{
-  background-image: url(./images/bg1.jpg);  
+  background-image: url(images/Pic\ 4.jpg);
   height: 100vh;
+  background-position: center;
 }
-
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 70px;
+    align-items: center;
 
 }
 
@@ -23,3 +26,93 @@ nav{
 a{
     text-decoration: none;
 }
+
+.link-color{
+    color: white;
+}
+.logo-color{
+    color: white;
+}
+.nav-link{
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color: rgb(0, 64, 127);
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}  
+
+.description-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+.description-btn{
+    width: 140px;
+    height: 30px;
+    background-color: rgb(1, 48, 9);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.content-bg{
+    color: rgb(209, 3, 48);
+}
+.spacing{
+    margin-bottom: 10px;
+}
+.ctn-btn-mg{
+    margin-bottom: 30px;
+}
+.form-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 90vh;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-bg{
+    background-color: white;
+    width: 35%;
+    /* height: 50vh; */
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fill-out-txt{
+    margin-bottom: 30px;
+    font-size: 10px;
+    color: gray;
+}
+.name-input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 25px;
+}
+.submitted{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.submit-btn{
+    height: 30px;
+    background-color: rgb(209, 51, 51);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+    
