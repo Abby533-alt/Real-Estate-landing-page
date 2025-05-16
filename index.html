@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
     <header>
         <nav>
-            <div>
-                <h4 class="logo-color">REAL</h4>
-                <h4 class="logo-color">HOMES</h4>
+
+
+            <div class="home">
+                <h4">DREAM <br>HOMES</h4>
             </div>
 
             <div class="nav-links">
-                <a href="#" class="nav-link">
+                <a href="#">
                     <h4 class="link-color">Home</h4>
                 </a>
                 <a href="#" class="nav-link">
@@ -34,34 +38,107 @@
                     <h4 class="link-color">Contact</h4>
                 </a>
             </div>
+
         </nav>
-        <div class="description">
-            <div class="description-content">
-                <div>
-                    <h1 class="content-bg">Luxurious House</h1>
-                    <h1 class="content-bg spacing">Easy to Find your Future Home</h1>
-                    <h4 class="content-bg ctn-btn-mg">Single Property</h4>
-                    <button class="description-btn">Free Consultation</button>
-                </div> 
+
+        <div class="text-center">
+            <h1 class="text-6xl font-m Dream">Find Your Dream Home</h1>
+            <p class="text-2xl font-m Discover">Discover thousands of properties for sale and rent in your favorite locations</p>
+        </div> 
+
+    </header>
+
+    <section class="properties">
+        <h1>Featured Properties</h1>
+        <p>Handpicked picked properties just for you</p>
+        <div class="image">
+
+            <div>
+                <img src="./images/kitchen1.jpg" class="img1" alt="">
+                <p class="money1">$450,000</p>
+                <p class="address">123 Willow street, Beverly Hills
+                <p class="rooms">3 Beds 2 Baths</p>
             </div>
 
-            <div class="form-con">
-                <div class="form-bg">
-                    <p>Make an Appointment</p>
-                    <p class="fill-out-txt">Fill out the details for information</p>
-                    <form action="" class="form">
-                        <input type="text" class="name-input" placeholder="Name">
-                        <input type="email" name="" id="" class="name-input" placeholder="Email">
-                        <input type="text" class="name-input" placeholder="Message">
-                        <div class="submitted">
-                            <input type="checkbox" name="" id="">
-                            <label for="">I agree that my sumitted data is being collected and stored</label>
-                        </div>
-                        <input type="button" value="Submit" class="submit-btn">
-                    </form>
+            <div>
+                <img src="./images/house1.jpg" class="img2" alt="">
+                <p class="money1">$685,000</p>
+                <p class="address">456 Maple Avenue, Los Angelos</p>
+                <p class="rooms">4 Beds 3 Baths</p>
             </div>
-            
-    </header>
+
+            <div><img src="./images/house2.jpg" class="img3" alt="">
+                <p class="money1">$320,000</p>
+                <p class="address"> 789 Oak Boulevard, San Francisco</p>
+                <p class="rooms">2 Beds 2 Baths</p>
+            </div>
+        </div>
+
+
+    </section>
     
+    <section class="feature-container">
+        <h1 class="choose">Why Choose Us</h1>
+        <h3 class="choose">We are commited to helping you find the perfect property</h3>
+        <div class="features">
+        <div class="img-space">
+            <img src="./images/icons8-house-48.png" alt="">
+            <h4>Wide Range of Properties</h4>
+            <p>Browse thousands of listings across various locations and property types to find your perfect match.</p>
+        </div>
+        <div class="img-space">
+            <img src="./images/icons8-money-bag-48.png" alt="">
+            <h4>Best Price Guarantee</h4>
+            <p>We ensure you get the best value for your investment with our market analysis and negotiation skills.</p>
+        </div>
+        <div class="img-space">
+            <img src="./images/icons8-lock-48.png" alt="">
+            <h4>Secure Transactions</h4>
+            <p>Rest easy knowing your purchase is protected with our secure transaction process and legal expertise.</p>
+        </div>
+        <div class="img-space">
+            <img src="./images/icons8-man-in-tuxedo-48.png" alt="">
+            <h4>Expert Agents</h4>
+            <p>Our licensed professionals have years of experience in the local markets to guide your decisions.</p>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-h">
+            <h2 class="journey">Start Your Property Journey Today</h2>
+            <p class="buying">Whether you're buying, selling, or renting, our team of experts is here to help you every step of the way.</p>
+            <button class="contact-btn">Contact Us Now</button>
+    </section>
+
+    <footer>
+        <div class="information">
+            <div class="abt-us">
+                <h2>Dream Homes</h2>
+                <p>Your trusted partner in real estate for over 15 years, helping thousands of families find their perfect homes.</p>
+            </div>
+
+            <div class="abt-us">
+                <h2>Services</h2 >
+                <h4>Buy Property</h4>
+                <h4>Sell Property</h4>
+                <h4>Rent Property</h4>
+                <h4>Property Management</h4>
+                <h4>Investment Consultation</h4>
+            </div>
+
+            <div class="abt-us">
+                <h2>Contact Us</h2>
+                <h4>123 Real Estate Avenue, Suite 500</h4>
+                <h4>Los Angeles, CA 90001</h4>
+                <h4>Phone: (123) 456-7890</h4>
+                <h4>Email: info@dreamhomes.com</h4>
+            </div>
+        </div>
+        
+        <div class="rights">© 2023 Dream Homes. All rights reserved.</div>
+    </footer>
+
 </body>
+
 </html>
